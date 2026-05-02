@@ -1,6 +1,3 @@
-/* =========================
-   RESET Y BASE
-========================= */
 * {
   margin: 0;
   padding: 0;
@@ -31,9 +28,6 @@ ul {
   list-style: none;
 }
 
-/* =========================
-   LAYOUT GENERAL
-========================= */
 .container {
   width: 90%;
   max-width: 1200px;
@@ -44,9 +38,6 @@ ul {
   padding: 70px 0;
 }
 
-/* =========================
-   TITULOS DE SECCIÓN
-========================= */
 .section-heading {
   text-align: center;
   margin-bottom: 40px;
@@ -62,9 +53,6 @@ ul {
   color: #475569;
 }
 
-/* =========================
-   HEADER
-========================= */
 .site-header {
   background-color: #0f172a;
   color: white;
@@ -115,9 +103,6 @@ ul {
   background-color: rgba(255, 255, 255, 0.15);
 }
 
-/* =========================
-   HERO
-========================= */
 .hero {
   background: linear-gradient(135deg, #dbeafe, #fef3c7);
   padding: 80px 0;
@@ -164,9 +149,6 @@ ul {
   flex-wrap: wrap;
 }
 
-/* =========================
-   BOTONES
-========================= */
 .btn {
   display: inline-block;
   padding: 12px 22px;
@@ -193,9 +175,6 @@ ul {
   border: 2px solid #0f172a;
 }
 
-/* =========================
-   HERO OFERTA
-========================= */
 .hero-offer {
   flex: 1 1 280px;
   background-color: white;
@@ -221,9 +200,6 @@ ul {
   color: #0f766e;
 }
 
-/* =========================
-   TARJETAS
-========================= */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -279,9 +255,6 @@ ul {
   text-decoration: underline;
 }
 
-/* =========================
-   INFO BOX
-========================= */
 .info-box {
   background-color: white;
   border-radius: 18px;
@@ -307,9 +280,6 @@ ul {
   color: #334155;
 }
 
-/* =========================
-   FORMULARIOS GENERALES
-========================= */
 .contact-form {
   background-color: white;
   padding: 35px;
@@ -320,9 +290,7 @@ ul {
   gap: 20px;
 }
 
-/* =========================
-   RESERVA FORM
-========================= */
+/*RESERVA FORM*/
 .reserva-form {
   max-width: 800px;
   margin: 0 auto;
@@ -366,9 +334,6 @@ ul {
   cursor: pointer;
 }
 
-/* =========================
-   EQUIPO
-========================= */
 #nuestro-equipo {
   padding: 80px 0;
   background-color: #f8fafc;
@@ -399,9 +364,6 @@ ul {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-/* =========================
-   FOOTER
-========================= */
 .site-footer {
   background-color: #0f172a;
   color: white;
@@ -418,9 +380,6 @@ ul {
   font-weight: bold;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 @media (max-width: 900px) {
   .cards-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -455,4 +414,23 @@ ul {
   .reserva-form form {
     grid-template-columns: 1fr;
   }
+
+  @media (max-width: 600px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .site-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main-nav ul {
+    justify-content: center;
+  }
+
+  .logo {
+    width: 180px;
+  }
+}
 }
