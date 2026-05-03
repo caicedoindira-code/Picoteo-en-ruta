@@ -2,7 +2,7 @@
 
 ## Descripción del proyecto
 
-Picoteo en Ruta es un proyecto basado en una empresa ficticia dedicada al alquiler de stands de comida, bebida y dulces para eventos.
+Picoteo en Ruta es un proyecto basado en una empresa ficticia dedicada al alquiler de carritos de comida, bebida y dulces para eventos.
 
 La web del proyecto está pensada para promocionar el servicio de alquiler de stands y facilitar que los usuarios conozcan la oferta disponible.  
 La aplicación Java permite gestionar parte de la información interna de la empresa mediante conexión con una base de datos MySQL.
